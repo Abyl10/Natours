@@ -2,19 +2,36 @@
   max-width: $grid-width;
   margin: 0 auto;
 
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
   }
 
   @include clearfix;
 
   // selects all class start with "col-"; ^ -> starts with, $ -> ends with, * -> contains with
-  [class^="col-"] {
+   [class^="col-"] {
     float: left;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
     }
+     @include respond(tab-port) {
+       width: 100% !important;
+     }
   }
 
   .col-1-of-2 {
