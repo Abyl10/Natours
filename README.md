@@ -1,6 +1,6 @@
 # Natours
 
-Welcome to Natours, an advanced CSS and SASS project that showcases the use of modern CSS techniques and design principles. Built using a mobile-first approach, the project is fully responsive, making it adaptable to different screen sizes and devices.
+Welcome to Natours, an advanced CSS and SASS project that showcases the use of modern CSS techniques and design principles. Built using a mobile-first approach, the project is fully responsive, making it adaptable to different screen sizes and devices. This project did not have functionality, it is only for learning modern design principles. 
 
 The project is a travel website that features the following sections:
 
