@@ -27,3 +27,5 @@ npm run start or yarn run start
 to start the development server
 
 The documentation for the project is available in the GitHub repository and includes detailed instructions on how to set up and run the project, as well as information on the technologies and techniques used.
+
+You can also see the live version of the project at [Natours](naturaltours.vercel.app).
